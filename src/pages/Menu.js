@@ -1,108 +1,118 @@
 import React from 'react';
 import '../styles/Menu.css';
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
+import { AccessAlarm, ThreeDRotation } from '@mui/icons-material';
+
+//import '../pages/image2.png';
+
+
 
 const Menu = () => {
     return (
-       /* <div className='container-fluid'>
-          
-        </header> 
-            </div>
-        
 
-        <div className='row'>
-            <div>
-                <h1 className='tittle' >starter</h1>
-                <p className='paragraph2' >This is section of your menu,Give your section a breaf description</p>
-                <img src='.../assets/menu assets/blueberry.png' alt=""/>
-            </div>
-            <div className='row'>
-                <div className='col'>
-
-                </div>
-                <div className='col'>
-
-                </div>
-                <div className='col'>
-
-                </div>
-            </div>
-            
-            <div className='row'>
-            <footer>
-                    <div className='.col-6 .md-4'>
-                        <p className='left_footer'>food <br/>zero</p>
-
-                    </div>   
-                <div className='.col-6 .md-4'>
-                     <p id='contact'>contact</p>
-                </div>
-                
-                    
-                </footer>
-                
-            </div>
-            
-        </div>
-        
-        
-        
-        </div>*/
         <>
-        <div class="container-fluid">
 
-            <header className='menu-header'>
-                <h1 className='Tittle' >View Our <br/> New Menu</h1>
-                <p  className='paragraph' >The freshest ingredien for you every day</p>
-            </header>
-            <section>
+            <div class="container-fluid">
 
-            </section>
-            
-        
-        <button className="button">Book Now</button>
+                <header className='menu-header'>
+                    <h1 className='Tittle' >View Our <br /> New Menu</h1>
+                    <p className='paragraph' >The freshest ingredien for you every day</p>
+                </header>
+                <section className='section2'>
 
-        <footer>
-             <div >
+                    <div class="row">
 
-                <div className="row align-items-start">
+                        <div class="col-6">
 
-                <div id='left-footer' className="col">food <br/>zero</div>
+                            Première colonne
+                            <img src="{}" alt='' />
+                        </div>
 
-                <div className="col">Deuxième1 colonne</div>
+                        <div class="col-6">
 
-                <div className="col">Troisième1 colonne</div>
+                            Deuxième colonne
 
+                        </div>
+
+
+                    </div>
+
+
+                </section>
+
+                <section className='section3 '>
+                    <p className='section3-tittle1'>Make a reservation</p>
+                    <h6 className='section3-tittle2'>Get in touch with restaurant</h6>
+                    <div id='box-section' class="row">
+
+                        <div class="col"><TextField id="outlined-basic" label="16/22/2021" variant="outlined" /></div>
+
+                        <div class="col"> <TextField
+                            id="outlined-select-currency"
+                            select
+                            label="6:00 pm"
+                            helperText="Please select your currency"
+                        ></TextField></div>
+
+                        <div class="col"><TextField
+                            id="outlined-select-currency"
+                            select
+                            label="6:00 pm"
+                            helperText="Please select your currency"
+                        ></TextField></div>
+                    </div>
+
+                    <button className="button">Book Now</button>
+
+                </section>
+
+
+
+
+                <footer>
+                    <div >
+
+                        <div className="row align-items-start">
+
+                            <div id='left-footer' className="col">food <br />zero.</div>
+
+                            <div id='left2-footer' className="col">Contact<br/>+36145545555<br/>foodzer@mail.fr<br/>melville.rue valence<br/>BP:1226 np,sharll</div>
+
+                            <div id='left4-footer' className="col"><Button variant="outlined">Subcribe</Button></div>
+
+                        </div>
+                        <div className="row align-items-left">
+
+                            <div class="col"></div>
+
+                            <div id='left3-footer' class="col">Never miss a recipe<br/><TextField id="outlined-basic" label=" E-mail adress " variant="outlined" /></div>
+
+                        </div>
+
+                        <div className="row align-items-center">
+
+
+                            <div className="col"></div>
+
+                            <div className="col"></div>
+
+                        </div>
+
+                        <div className="row align-items-end">
+
+                            <div className="col"></div>
+
+                            <div className="col"></div>
+
+                        </div>
+
+                    </div>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<br/>
+                    <p>Zero Inc,All rigths Reserved</p>
+                </footer>
             </div>
-                <div className="row align-items-left">
-
-<div class="col">Deuxième colonne</div>
-
-<div class="col">Troisième colonne</div>
-
-            </div>
-
-                <div className="row align-items-center">
-
-
-                <div className="col">Deuxième2 colonne</div>
-
-                <div className="col">Troisième 2colonne</div>
-
-            </div>
-
-                <div className="row align-items-end">
-
-                <div className="col">Deuxième3 colonne</div>
-
-                <div className="col">Troisième 3colonne</div>
-
-            </div>
-
-            </div>
-        </footer>
-        </div>
         </>
-       
+
     );
 }
 
