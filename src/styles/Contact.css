@@ -1,5 +1,5 @@
 .menu-header{
-    background-image: url('../assets/menu assets/Image\ \(1\).png');
+    background-image: url('../assets/Contact\ assets/Image(1).png');
     width: 100%;
     height: 450px;
     margin: auto;
@@ -41,9 +41,6 @@ li {
               
   }
 
-  .Tittle-left{
-    line-height: 5px;
-  }
 #Tittle{
     width: 750px;
     height: 304px;
@@ -183,5 +180,6 @@ flex-grow: 0;
 /*#left2-footer{
     padding-top: 7%;
 }*/
+
 
 
