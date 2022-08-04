@@ -7,10 +7,6 @@
     box-sizing: border-box;
  
 }
-
-.navbar1-left{
-    
-}
 .navbar2-right{
     float:right;
 }
@@ -177,9 +173,7 @@ order: 0;
 align-self: stretch;
 flex-grow: 0;
 }
-/*#left2-footer{
-    padding-top: 7%;
-}*/
+
 
 
 

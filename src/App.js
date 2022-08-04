@@ -10,7 +10,6 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <BrowserRouter>
-     
         <Routes>
           <Route path="/" exact component={<Home/>} />
           <Route path="/About" exact component={<About/>} />
@@ -18,8 +17,6 @@ function App() {
           <Route path="/Menu" exact component={<Menu/>} />
           <Route component={NotFound} />
         </Routes>
-     
-
     </BrowserRouter>
   );
 }
